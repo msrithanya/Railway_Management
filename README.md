@@ -20,7 +20,7 @@ This is a simple console-based Railway Management System developed in Java. It a
 2.  **Compile**:
     Open a terminal or command prompt, navigate to the directory where you saved `Railway_Management.java` and `Person.java`, and compile the code:
     ```bash
-    javac Railway_Management.java Person.java
+    javac Railway_Management.java
     ```
 3.  **Run**:
     After successful compilation, run the application using:
