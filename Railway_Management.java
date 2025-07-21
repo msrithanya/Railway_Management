@@ -162,7 +162,6 @@ public class Railway_Management {
             System.out.println("-------------Booking succeed");
             int c= tickets.get(1)-1;
             tickets.set(1,c);
-            //  menu(bookedlist,availlist,id,tickets,raclist,wlist);
         }
           else if(tickets.get(3)!=0){
              bearth='R';
@@ -171,7 +170,6 @@ public class Railway_Management {
             System.out.println("-------------Booking succeed");
             int c= tickets.get(3)-1;
             tickets.set(3,c);
-        //   menu(bookedlist,availlist,id,tickets,raclist,wlist);
         }
         else if(tickets.get(4)!=0){
             bearth='W';
@@ -180,11 +178,9 @@ public class Railway_Management {
             System.out.println("-------------Booking succeed");
              int c= tickets.get(4)-1;
             tickets.set(4,c);
-        //   menu(bookedlist,availlist,id,tickets,raclist,wlist);
         }
       else{
             System.out.println("No Tickets Available");
-            //   menu(bookedlist,availlist,id,tickets,raclist,wlist);
         } 
     }
     menu(bookedlist,availlist,id,tickets,raclist,wlist);
@@ -278,8 +274,7 @@ System.out.println(availlist);
          ArrayList<Person>availlist = new ArrayList<>();
          ArrayList<Person>raclist=new ArrayList<>();
          ArrayList<Person>wlist=new ArrayList<>();
-    //      HashMap<String,Integer> bookedlist=new HashMap<String,Integer>();
-    // ArrayList<Integer> availlist=new ArrayList<Integer>(Arrays.asList(1, 2, 3, 4, 5));
+ 
     int id=0;
         menu(bookedlist,availlist,id,tickets,raclist,wlist);
     }
